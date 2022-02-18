@@ -1,3 +1,9 @@
+const team = ['Nathan Traczewski', 'Wesley Mitchell', 'Punam Ahire']
+
+// Log names of each teammate
+for (const teammate of team) {
+    console.log(teammate);
+}
 // Logs each teammates birthday to the console
 
 const logBirthdays = (person, birthday) => {
